@@ -11,24 +11,31 @@ const Main = () => {
         <span className="sm:text-4xl text-2xl font-semibold leading-snug">
           Web Developer designing beautiful, intuitive web apps
         </span>
-        <span className="text-link_text_hover">.</span>
-        <div className="sm:text-lg leading-normal">
+        <span className="text-link_text_hover font-semibold">.</span>
+        <div className="sm:text-lg leading-snug">
           <p className="font-normal py-5 ">
-            Hi, I'm Sunny Shankar, an India based Full-Stack Web
-            Developer/Student @ Pune University. I am specialising in Web
-            Development with React js and Django.
+            Hello, I am Sunny Shankar, an India-based backend developer. I build
+            Production level APIs using Python.
           </p>
-          <p className=" font-normal py-2">
-            I'm currently working full-time for{" "}
-            <span className="border-b-2 border-link_border hover:border-link_border_hover hover:text-link_text_hover transition-colors text-link cursor-pointer">
-              Poonawalla Fincorp
-            </span>{" "}
-            in Pune. I am passionate about the Internet and how we can design
-            beautiful looking interfaces with programming languages.
+          <p className="font-normal py-2">
+            I'm a full-time developer at{" "}
+            <a href="https://poonawallafincorp.com/">
+              <span className="border-b-2 border-link_border hover:border-link_border_hover hover:text-link_text_hover transition-colors text-link cursor-pointer">
+                Poonawalla Fincorp
+              </span>{" "}
+            </a>
+            in Pune and and a part-time consultant at{" "}
+            <a href="https://digital-mozarts.com/">
+              <span className="border-b-2 border-link_border hover:border-link_border_hover hover:text-link_text_hover transition-colors text-link cursor-pointer">
+                Digital Mozarts.
+              </span>{" "}
+            </a>
+            I am passionate about the Technology and and I enjoy designing web
+            interface.
           </p>
           <p className="py-2">
-            Outside of my work-life, I love to play game, listening to songs, or
-            just hanging out with my friends. You can follow me on my Instagram
+            Outside of my work-life, I enjoy playing video games, listening to
+            music and hanging out with friends. You can follow me on Instagram
             or Twitter. I post very rarely so you might not find many posts on
             either.
           </p>
@@ -40,9 +47,11 @@ const Main = () => {
             <AiFillLinkedin className="cursor-pointer" />
             <AiFillInstagram className="cursor-pointer" />
           </div>
-          <div className="font-semibold sm:px-4 px-3 sm:py-2 py-1 rounded shadow bg-action_back border border-p_text cursor-pointer">
-            Email me
-          </div>
+          <a href="mailto: sunny.shankar44@gmail.com">
+            <div className="font-semibold sm:px-4 px-3 sm:py-2 py-1 rounded shadow bg-action_back border border-p_text cursor-pointer">
+              Email me
+            </div>
+          </a>
         </div>
       </div>
     </div>

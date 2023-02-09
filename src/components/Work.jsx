@@ -22,8 +22,8 @@ const Work = () => {
       current: true,
     },
     {
-      organisation: "Finverv",
-      profile: "Backned Developer",
+      organisation: "Digital Mozarts",
+      profile: "Product",
       from: "20-Nov-2020",
       to: "present",
       location: "Bengluru",
